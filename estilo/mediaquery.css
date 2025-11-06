@@ -34,7 +34,28 @@
 /* do home */
 @media screen and (max-width: 1170px) {
 
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
+    }
 
+    #banner, 
+    #banner  img , 
+    #home .shape{ 
+        display: none;
+    }
 
+    #cta { 
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
 }
 
+@media screen and (max-width: 1170px) {
+    #phone_button button { 
+    display: none;
+    }
+}
+
+    
