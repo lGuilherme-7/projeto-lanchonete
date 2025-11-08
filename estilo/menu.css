@@ -59,11 +59,11 @@
     text-align: center;
     font-size: 0.875rem;
     color: var(--color-neutral-1);
-    margin-top: -10px;
+    margin-bottom: 10px;
 }
 
-.dish-rate i { 
-    color: var(--color-primary-6);
+.dish-rate , i { 
+    color: var(--color-primary-2);
 }
 
 .dish-price { 
