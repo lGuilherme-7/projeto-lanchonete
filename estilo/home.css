@@ -28,6 +28,7 @@
 #cta_buttons { 
     display: flex;
     gap: 24px;
+    text-decoration: none;
 }
 
 #cta_buttons a { 
@@ -44,19 +45,35 @@
     font-weight: 500;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
+    text-decoration: none;
+    transition: background-color .3s ease
 }
 
-#banner { 
+
+#banner {
+    
     display: flex;
-    align-items: start;
-    justify-content: end;
-    width: 70%;
+    align-items: center; 
+    justify-content: flex-end; 
+    width: 50%;
     z-index: 2;
 }
 
 #banner img { 
-    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%; 
     width: fit-content;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 2;
+}
+
+#banner img {
+    max-width: 200%; 
+    height: 70%;
+    padding: 0px 0px 30px 0px; ;
 }
 
 .shape { 
@@ -64,10 +81,10 @@
     width: 50%;
     height: 100%;
     position: absolute;
-    border-radius: 40% 30% 0% 20%;
+    border-radius: 110% 10% 30% 10%;
     top: 0;
     right: 0;
-    z-index: 1;
+    z-index: 0;
 }
 
 @media screen and (max-width: 1770px) {
@@ -78,7 +95,8 @@
     }
 
     #banner, #banner img , #home .shape { 
-        display: none;
+        display: block;
+        
     }
 
     #cta { 
@@ -88,12 +106,13 @@
     }
 }
 
-@media screen and (max-width: 450px) { 
+@media (max-width: 768px) {
+  #nav_list {
+    display: none; 
+  }
 
-    #phone_button { 
-        display: none;
-    }
-
-
-
+  #mobile_btn {
+    display: block;
+    text-align: center;
+  }
 }
