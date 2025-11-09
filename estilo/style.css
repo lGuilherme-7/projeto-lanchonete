@@ -54,10 +54,10 @@ section {
 }
 
 .social-media-btn { 
-    display: inline-block;
+    display:flex;
+    gap: 15px;
     list-style: none;
     margin: auto;
-    gap: 5px;
     text-decoration: none;
 }
 

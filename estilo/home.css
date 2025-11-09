@@ -26,7 +26,8 @@
 }
 
 #cta_buttons { 
-    display: flex;
+    display: block;
+    margin-top: 109px;
     gap: 24px;
     text-decoration: none;
 }
@@ -36,7 +37,7 @@
     color: var(--color-neutral-1);
 }
 
-#phone_button { 
+#phone_btn { 
     display: flex;
     gap: 8px ;
     align-items: center;
@@ -57,34 +58,4 @@
     top: 0;
     right: 0;
     z-index: 0;
-}
-
-@media screen and (max-width: 1200px) {
-
-    #home { 
-        min-height: 100%;
-        padding-top: 0px;
-    }
-
-    #banner, #banner img , #home .shape { 
-        display: block;
-        
-    }
-
-    #cta { 
-        width: 100%; 
-        text-align: center;
-        align-items: center;
-    }
-}
-
-@media (max-width: 768px) {
-  #nav_list {
-    display: none; 
-  }
-
-  #mobile_btn {
-    display: block;
-    text-align: center;
-  }
 }

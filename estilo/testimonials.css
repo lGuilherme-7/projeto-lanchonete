@@ -7,7 +7,8 @@
 }
 
 #testimonial_chef {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     height: auto;
 }
 
@@ -19,7 +20,7 @@
     width: 50%;
 }
 
-#feedback {
+.feedback-item {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -64,7 +65,7 @@
     }
 
     #testimonial_chef {
-        display: none;
+        width: 70%;
     }
 
     #testimonials_content {
