@@ -13,8 +13,7 @@ header {
     align-items: center;
     justify-content: space-between;
 }
-
-#navlogo { 
+#nav_logo { 
     font-size: 24px;
     color: var(--color-primary-6);
     font-weight: 600;
